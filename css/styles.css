@@ -525,23 +525,19 @@ img {
     height: 100%;
     border: 1px solid #8E8F99;
     border-radius: 4px;
-    color: #8E8F99;
+     color: #8E8F99;
 }
 
 .customers-link:hover,
-.customers-link:focus{
+.customers-link:focus {
     color: #404BBF;
     border: 1px solid #404BBF
 }
 
 
 .team-social-icon {
-    fill: currentColor;
+
 }
-/* .customers-link:is(:hover, :focus) {
-    color: #404BBF;
-    border: 1px solid #404BBF
-} */
 
 
 /* /customers */
