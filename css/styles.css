@@ -515,20 +515,33 @@ img {
     justify-content: center;
     width: 168px;
     height: 88px;
+}
+
+.customers-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
     border: 1px solid #8E8F99;
     border-radius: 4px;
-    color: gray;
+    color: #8E8F99;
 }
-.customers-item:is(:hover, :focus) {
-    background-color: #404BBF;
-    border: 1px solid #404BBF;
+
+.customers-link:hover,
+.customers-link:focus{
+    color: #404BBF;
+    border: 1px solid #404BBF
 }
-.customers-link {
-}
+
 
 .team-social-icon {
     fill: currentColor;
 }
+/* .customers-link:is(:hover, :focus) {
+    color: #404BBF;
+    border: 1px solid #404BBF
+} */
 
 
 /* /customers */
