@@ -257,6 +257,9 @@ img {
     background: #F4F4FD;
     border-radius: 4px;
     margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 264px;
     height: 112px;
 }
@@ -266,7 +269,6 @@ img {
 }
 
 .section-two-icon {
-    padding: 24px 100px;
 }
 
 .main-text {
@@ -347,7 +349,6 @@ img {
     justify-content: center;
     gap: 24px;
     margin-top: 8px;
-    margin-bottom: 32px;
 }
 .team-social-item {
     width: 40px;
@@ -448,12 +449,15 @@ img {
 .second-section-item {
     width: calc((100% - 48px) / 3);
 }
-.second-section-item:is(:hover, :focus) {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 
+.second-section-link {
+    display: block;
 }
 
+.second-section-link:is(:hover, :focus) {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 
 .second-section-sizes {
     padding-top: 32px;
@@ -605,6 +609,7 @@ img {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    margin-bottom: 14px;
 }
 
 .footer-social-media {
